@@ -46,6 +46,53 @@
                 <i class="fas fa-angle-double-down fa-2x"></i>
             </a>
         </div>
-        <!-- End Landing --> 
+        <!-- End Landing -->
+                 <!-- Start Products -->
+        <div class="products" id="products">
+            <h2 class="main-title">products</h2>
+            <div class="container">
+                <div class="box">
+                    <img src="images/" alt="" />
+                    <div class="content">
+                        <h3 id="product-name">productName</h3>
+                        <p id="description">productDescription</p>
+                        <p id="category">productCategory</p>
+                    </div>
+                    <div class="info">
+                        <a href="#" id="product-price">productPrice $</a>
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
+
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </div>
+            </div>
+        </div>
+        <div class="add-product" id="add-product">
+            <h3 style="text-align: center">Add Product</h3>
+            <form action="">
+                <label>Product Name: </label>
+                <input name="product-name" type="text" id="productName" />
+
+                <label>Price: </label>
+                <input name="price" type="text" id="price" />
+
+                <label>Description: </label>
+                <input name="description" type="text" id="productDescription" />
+
+                <label>Category: </label>
+                <select id="productCategory">
+                    <option value="Electronics">Electronics</option>
+                    <option value="Furniture">Furniture</option>
+                    <option value="Accessories">Accessories</option>
+                </select>
+
+                <label>Image: </label>
+                <input type="file" id="productImage" />
+
+                <button type="submit" class="submit-btn">Add Product</button>
+            </form>
+        </div>
+        <!-- End Products --> 
     </body>
 </html>

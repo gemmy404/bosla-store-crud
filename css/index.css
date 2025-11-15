@@ -320,6 +320,11 @@ ul {
     background: #f8f8f8;
     border-radius: 10px;
 }
+@media (max-width: 768px) {
+    .add-product {
+        width: 100%;
+    }
+}
 
 form {
     display: flex;

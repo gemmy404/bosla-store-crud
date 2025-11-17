@@ -2,6 +2,8 @@
 
 A modern, animated e-commerce website built with HTML, CSS, and JavaScript, featuring full CRUD operations for product management.
 
+**Live Demo:** https://gemmy404.github.io/bosla-store-crud/
+
 ## Features
 
 ### Core Functionality
